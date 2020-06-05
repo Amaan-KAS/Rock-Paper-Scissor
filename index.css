@@ -1,0 +1,118 @@
+*  {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #24272e;
+}
+
+header {
+  padding: 20px;
+  background-color: whitesmoke;
+  text-align: center;
+}
+
+.player-labels {
+  width: 200px;
+  font-size: 46px;
+  color:whitesmoke;
+  margin: 20px auto;
+  border: white 3px solid;
+  text-align: center;
+  padding: 15px 20px;
+  position: relative;
+}
+
+.label{
+  background-color: turquoise;
+  font-size: 16px;
+  padding: 5px;
+}
+
+#player-label-left{
+  position: absolute;
+  left:-22px;
+  top:30px;
+}
+
+#player-label-right{
+  position: absolute;
+  right:-37px;
+  top:30px;
+}
+
+.display p{
+  margin: 30px auto;
+  text-align: center;
+  font-size: 35px;
+  color: whitesmoke;
+}
+
+.hand-signs{
+  text-align: center;
+}
+
+.hand-sign{
+ display:inline-block;
+ border: 4px whitesmoke solid;
+ border-radius: 65%;
+ margin: 10px 25px;
+ background-color: turquoise; 
+}
+
+.hand-sign:hover{
+  border-color: red;
+  background-color: lightblue;
+  cursor: pointer;
+}
+
+#action-message{
+  font-size: 35px;
+  margin: 20px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+#paper .hand-sign{
+border-color: lime 3px solid;
+}
+
+#rock .hand-sign{
+border-color: lime 3px solid;
+}
+
+#scissor .hand-sign{
+border-color: lime 3px solid;
+}
+
+.drumkits{
+  column-gap: 20px;
+  height: 120px;
+  margin: 40px 20px;
+  display:grid;
+  text-align: center;
+  grid-template-rows: 120px;
+  grid-template-columns: repeat(6, 1fr);
+  border-top: whitesmoke 3px solid;
+  border-bottom: whitesmoke 3px solid;
+}
+
+.drumkit p{
+  font-family: 'Dancing Script', cursive;
+  font-size: 22px;
+}
+
+.drumkit{
+  font-size: 20px;
+  color: turquoise;
+  padding: 10px;
+  border: yellow solid 3px;
+  margin: auto 0;
+}
+
+#sounds{
+  color:whitesmoke;
+}
+

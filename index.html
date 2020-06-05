@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@562&display=swap" rel="stylesheet">
+  <title>Rock_Paper_Scissor</title>
+  <link rel="stylesheet" href="index.css">
+  <script src="index.js" defer></script>
+</head>
+<body>
+
+  <header>
+    <h1>Rock Paper and Scissor</h1>
+  </header>
+
+  <div class="player-labels">
+    <div class="label" id="player-label-left">
+      User
+    </div>
+    <div class="label" id="player-label-right">
+      Computer
+    </div>
+    <span id="score-board-left">0</span>:<span id="score-board-right">0</span>
+  </div>
+
+  <div class="display" >
+    <p id="demo">Get Set Ready Go!!</p>
+    <!-- <p id="demo"></p> -->
+  </div>
+
+  <div class="hand-signs">
+    <div  class="hand-sign" id="paper">
+       <img src="https://github.com/developedbyed/rock-paper-scissor/blob/b58146ed3864f082cc1c83c6ff23018fc2165df3/assets/paper.png?raw=true" alt="paper">
+    </div>
+
+    <div onclick="glow()" class="hand-sign" id="rock">
+      <img src="https://github.com/developedbyed/rock-paper-scissor/blob/b58146ed3864f082cc1c83c6ff23018fc2165df3/assets/rock.png?raw=true" alt="rock">
+    </div>
+
+    <div onclick="glow()" class="hand-sign" id="scissor">
+      <img src="https://github.com/developedbyed/rock-paper-scissor/blob/b58146ed3864f082cc1c83c6ff23018fc2165df3/assets/scissors.png?raw=true" alt="scissor">
+    </div>
+  </div>
+
+  <p id="action-message">Make Your Moves!!</p>
+  
+  <div class="drumkits">
+    <div  class="drumkit" onclick="KS(a)" id="a">
+      <p id="letters" >A</p>
+      <p id="demo"></p>
+      <span id="sounds">Clap</span>
+    </div>
+
+    <div onclick="KS(b)"  class="drumkit" id="b">
+      <p  id="letters">B</p> 
+      <span id="sounds">Clap</span>
+    </div>
+
+    <div onclick=KS(c) class="drumkit" id="c">
+      <p id="letters">C</p> 
+      <span id="sounds">Clap</span>
+    </div>
+
+    <div class="drumkit" onclick=KS(d) id="d">
+      <p id="letters">D</p> 
+      <span id="sounds">Clap</span>
+    </div>
+
+    <div onclick=KS(e) class="drumkit" id="e">
+      <p id="letters">E</p> 
+      <span id="sounds">few</span>
+    </div>
+
+    <div onclick=KS(f) class="drumkit" id="f">
+      <p id="letters">F</p> 
+      <span id="sounds">Clap</span>
+    </div>
+
+    </div>
+</body>
+</html>
