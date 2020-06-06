@@ -165,8 +165,4 @@ function sound(key){
   if( key === a){
     
   }
-
-
-
-
 }
